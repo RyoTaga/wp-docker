@@ -1,0 +1,10 @@
+.gnavi {
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-item {
+    flex-basis: 1200/6*100%;
+    text-align: center;
+  }
+}

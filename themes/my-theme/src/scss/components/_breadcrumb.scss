@@ -1,0 +1,20 @@
+.breadcrumb {
+  &-list {
+    @include clearfix;
+    width: 100%;
+    max-width: $pc_w;
+    margin: 0 auto;
+  }
+  &-item {
+    float: left;
+    &:before {
+      content: '>';
+    }
+    &:first-child {
+      &:before {
+        content: '';
+        margin: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+//Base
+$color: #000;
+$anchor : #111;
+$activeColor : #999;
+$fs: 14px;
+$lh : 1.5;
+$sp_w: 94%;
+$pc_w: 1200px;
+
+//Font-Family
+$serif: "游明朝","ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+$sans_serif: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","游ゴシック", YuGothic, "Yu Gothic","メイリオ", Meiryo,"ＭＳ Ｐゴシック","MS PGothic",Osaka,Helvetica,Arial,sans-serif;
+
+//Media Query
+$sp: "only screen and (max-width: 767px)";
+$not_sp: "only screen and (min-width: 768px)";
+$tab: "only screen and (min-width: 768px) and (max-width: 1200px)";
+$tab_pc: "only screen and (min-width: 768px) and (max-width: 1119px)";
+$not_pc: "only screen and (max-width: 1200px)";
+$pc: "only screen and (min-width: 1201px)";
+$iPhone5: "only screen and (max-width: 374px)";
